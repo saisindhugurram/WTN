@@ -8,7 +8,7 @@ public class Ex9 {
 			System.out.println("Please enter the month in numbers");
 		}
 		else {
-			int ch=Integer.parseInt(String.valueOf(args[0].charAt(0)));
+			int ch=Integer.parseInt(args[0]);
 			switch(ch) {
 			case 1:System.out.println("January");
 			break;
