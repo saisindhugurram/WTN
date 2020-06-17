@@ -9,7 +9,7 @@ public static void main(String args[]) {
 		
 	}
 	else {
-		for(int i=2;i<x/2;i++)
+		for(int i=2;i<=x/2;i++)
 		{
 			if(x%i==0) {
 				flag=1;
